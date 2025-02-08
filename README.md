@@ -24,3 +24,9 @@ cd web
 pip install -r requirements.txt
 python app.py
 ```
+
+## Update the submodule
+
+```sh
+git submodule update --recursive --remote
+```
