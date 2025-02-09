@@ -8,3 +8,8 @@
   url = https://github.com/canh25xp/gector-api
   branch = main
   update = rebase
+[submodule "report"]
+  path = report
+  url = https://github.com/canh25xp/GraduationThesis.git
+  branch = main
+  update = rebase
