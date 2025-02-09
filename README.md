@@ -1,4 +1,4 @@
-# A Grammatical Error Correction Using Machine Learning Web Application
+# Grammatical Error Correction Using Machine Learning Web Application
 
 This repo is a centerialized place for my graduation project, icluding the api, web interface, and the thesis report.
 
