@@ -1,6 +1,6 @@
 # A Grammatical Error Correction Using Machine Learning Web Application
 
-This repo is a centerialized place for the gector-api and gector-web.
+This repo is a centerialized place for my graduation project, icluding the api, web interface, and the thesis report.
 
 ## Clone the repo
 
@@ -9,10 +9,14 @@ git clone https://github.com/canh25xp/GecWeb
 git submodule update --init --recursive
 ```
 
+To stay up to date with the submodule, run `git submodule update --recursive --remote`
+
 ## Start the api
 
 ```sh
 cd api
+conda create -n gec-api python=3.10
+conda activate gec-api
 pip install -r requirements.txt
 python api.py
 ```
@@ -21,12 +25,15 @@ python api.py
 
 ```sh
 cd web
+conda create -n gec-web python=3.10
+conda activate gec-web
 pip install -r requirements.txt
 python app.py
 ```
 
-## Update the submodule
+## Compile the report
 
 ```sh
-git submodule update --recursive --remote
+cd report
+latexmk -file-line-error -synctex=1 -interaction=nonstopmode  -xelatex -outdir=build main.tex
 ```
