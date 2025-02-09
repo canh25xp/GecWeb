@@ -31,6 +31,18 @@ pip install -r requirements.txt
 python app.py
 ```
 
+## Run Gradio-demo
+
+Gradio app run independently, so no api is needed.
+
+```sh
+cd gradio-demo
+conda create -n gec-gradio python=3.10
+conda activate gec-gradio
+pip install -r requirements.txt
+python main.py
+```
+
 ## Compile the report
 
 ```sh

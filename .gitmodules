@@ -13,3 +13,8 @@
   url = https://github.com/canh25xp/GraduationThesis.git
   branch = main
   update = rebase
+[submodule "demo"]
+  path = demo
+  url = https://huggingface.co/spaces/canh25xp/gector_demo
+  branch = main
+  update = rebase
