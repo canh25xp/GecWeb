@@ -1,6 +1,8 @@
 [submodule "web"]
 	path = web
 	url = https://github.com/canh25xp/gector-web
+	update = rebase
 [submodule "api"]
 	path = api
 	url = https://github.com/canh25xp/gector-api
+	update = rebase
