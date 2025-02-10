@@ -14,6 +14,10 @@ tmux new-window -t $SESSION_NAME -n gec-web -c "$(pwd)/web"
 tmux send-keys -t $SESSION_NAME:3 "conda activate gec-web ; clear" C-m
 
 # windows 4
+tmux new-window -t $SESSION_NAME -n gec-demo -c "$(pwd)/demo"
+tmux send-keys -t $SESSION_NAME:4 "conda activate gec-demo ; clear" C-m
+
+# windows 5
 tmux new-window -t $SESSION_NAME -n thesis -c "$(pwd)/report"
 
 tmux select-window -t $SESSION_NAME:1
