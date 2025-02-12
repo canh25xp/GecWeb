@@ -49,5 +49,5 @@ python main.py
 
 ```sh
 cd report
-latexmk -file-line-error -synctex=1 -interaction=nonstopmode  -xelatex -outdir=build main.tex
+latexmk -file-line-error -synctex=1 -interaction=nonstopmode  -xelatex -outdir=build report.tex
 ```
