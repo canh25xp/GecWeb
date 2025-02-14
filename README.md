@@ -2,6 +2,25 @@
 
 This repo is a centerialized place for my graduation project, icluding the api, web interface, and the thesis report.
 
+## Start tmux session
+
+```sh
+chmod +x tmux-dev.sh
+chmod +x tmux-ngrok.sh 
+```
+
+For development:
+
+```sh
+./tmux-dev.sh
+```
+
+For run test using ngrok
+
+```sh
+./tmux-ngrok.sh
+```
+
 ## Clone the repo
 
 ```sh

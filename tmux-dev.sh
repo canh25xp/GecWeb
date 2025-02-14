@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SESSION_NAME="thesis"
+SESSION_NAME="GecWeb-dev"
 
 # windows 1
 tmux new-session -d -s $SESSION_NAME -n GecWeb -c "$(pwd)"
